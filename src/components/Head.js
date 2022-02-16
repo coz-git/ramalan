@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Link, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import kita from '../assets/images/header/DSC00363.JPG'
+import kita from '../assets/images/header/kita.jpg'
 
 const useStyles = makeStyles((theme) => ({
     container: {

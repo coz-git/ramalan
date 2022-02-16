@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header'
 import Snowfall from 'react-snowfall'
 import Opening from './components/Opening'
 import Event from './components/Event'
@@ -16,7 +14,7 @@ function App() {
 		<div className="fh5co-loader"></div>
 		<Snowfall
 			color="#00bcd4"
-			snowflakeCount={60}
+			snowflakeCount={70}
 			style={{
 				position: 'fixed',
 				width: '100vw',

@@ -23,7 +23,15 @@ const useStyles = makeStyles((theme) => ({
         fontFamily : 'Cookie,cursive!important',
         fontSize: '60px',
         color: '#f14e95',
-    }
+		marginBottom : '0px',
+    },
+	galleyQuote : {
+        fontFamily : 'Redressed, cursive',
+        fontSize: '30px',
+		textShadow : '0 0 1px #000',
+		// fontWeight : 'bold',
+        color: '#75c6ec',
+	}
 }));
 
 const images = [
@@ -90,6 +98,9 @@ const Gallery = () => {
                     <h2 className={classes.galleryTitle}>
                         #RamaLan22
                     </h2>
+                    <blockquote>
+                      <p className={classes.galleyQuote}>"Love is master key of opening gate of happiness"</p>
+                    </blockquote>
                 </div>
                 <div style={{width:'100%'}}>
                     <ImageGallery items={images} style={{width :'80%'}} />

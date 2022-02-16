@@ -59,10 +59,10 @@ const Head = () => {
     return (
         <div className={classes.container}>
             <div>
-                <h1 className={classes.textName + ' ' + classes.textColor}>Lala &amp; Rama</h1>
+                <h1 className={classes.textName + ' ' + classes.textColor}>Rama &amp; Lala</h1>
                 <h2 className={classes.textTitle + ' ' + classes.textColor}>We Are Getting Married</h2>
                 <h4 style={{ paddingTop : '20px', fontWeight : 'bold'}} className={classes.textColor}>Dear Friends,</h4>
-                <hr style={{ borderTop :'2px solid #75c6ec'}}/>
+                <hr style={{ borderTop :'3px solid #75c6ec'}}/>
                 <Link activeClass="active" to="opening" spy={true} smooth={true}>
                 <div className={classes.clickButton}>
                     <div>

@@ -32,21 +32,21 @@ const Opening = () => {
 			<div className="couple-wrap animate-box">
 				<div className="couple-half">
 					<div className="groom">
-						<img src={lala} alt="groom" className="img-responsive" />
+						<img src={me} alt="groom" className="img-responsive" />
 					</div>
 					<div className="desc-groom">
-						<h3>Nirmala Aulia Harahap</h3>
-						<p>Putri Bapak Fahrudin & Ibu Efridani</p>
+						<h3>Kosasih Wahid Pramana</h3>
+						<p style={{ fontSize : '14px' }}>Putra Bapak Hendra Riyanto & Ibu Siti Rodiah</p>
 					</div>
 				</div>
 				<p className="heart text-center"><i className="icon-heart2"></i></p>
 				<div className="couple-half">
 					<div className="bride">
-						<img src={me} alt="groom" className="img-responsive" />
+						<img src={lala} alt="groom" className="img-responsive" />
 					</div>
 					<div className="desc-bride">
-						<h3>Kosasih Wahid Pramana</h3>
-						<p>Putra Bapak Hendra & Ibu Siti Rodiah</p>
+						<h3>Nirmala Aulia Harahap</h3>
+						<p style={{ fontSize : '14px' }}>Putri Bapak Pahruddin Harahap & Ibu Efridanni Siregar</p>
 					</div>
 				</div>
 			</div>

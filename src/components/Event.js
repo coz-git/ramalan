@@ -57,7 +57,7 @@ const Event = () => {
 									</div>
 									<div className={classes.eventDate}>
 										<i style={{marginRight : '10px'}} className="icon-calendar"></i>
-										<p style={{margin : 'auto 0'}}>Ahad, 20 Feb 2020</p>
+										<p style={{margin : 'auto 0'}}>Minggu, 20 Feb 2022</p>
 									</div>
 								</div>
 							</div>
@@ -70,12 +70,12 @@ const Event = () => {
 									</div>
 									<div className={classes.eventDate}>
 										<i style={{marginRight : '10px'}} className="icon-calendar"></i>
-										<p style={{margin : 'auto 0'}}>Ahad, 20 Feb 2020</p>
+										<p style={{margin : 'auto 0'}}>Minggu, 20 Feb 2022</p>
 									</div>
 								</div>
 							</div>
 							<div style={{marginTop : '20px'}} className="col-md-12 text-center">
-								<a href="https://goo.gl/maps/EQmDFKoscS9Hu4pd7" target="_blank">
+								<a href="https://goo.gl/maps/DQxbCHLpHSXGDJnC7" target="_blank">
 									<Button variant="contained" className={classes.buttonDetail}>
 										Click Here for Location
 									</Button>

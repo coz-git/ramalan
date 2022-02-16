@@ -16,7 +16,7 @@ function App() {
 		<div className="fh5co-loader"></div>
 		<Snowfall
 			color="#00bcd4"
-			snowflakeCount={100}
+			snowflakeCount={60}
 			style={{
 				position: 'fixed',
 				width: '100vw',
